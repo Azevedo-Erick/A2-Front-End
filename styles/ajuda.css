@@ -74,6 +74,9 @@
     margin-top: 2%;
     font-size: 16px;
     color: #fff;
+    overflow: scroll;
+    height: 20vh;
+    word-wrap:break-word;
 }
 
 
@@ -116,7 +119,7 @@
         border-radius: 10px;
         padding: 10px 20px 10px 10px;
         width: 50%;
-        margin: 0 auto;
+        margin: 0 auto 1vh;
     }
     /*Quando a pergunta for enviada*/
     .titulo{
@@ -169,7 +172,7 @@
         border-radius: 10px;
         padding: 10px 20px 10px 10px;
         width: 50%;
-        margin: 0 auto;
+        margin: 0 auto 1vh;
     }
     /*Quando a pergunta for enviada*/
     .titulo{
