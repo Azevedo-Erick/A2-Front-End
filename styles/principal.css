@@ -15,6 +15,10 @@
     background-color: #555;
 }
 
+:root{
+    font-family: 'Goldman', cursive;
+}
+
 body{
     background-color: #17222e;
     width: 100%;
@@ -22,28 +26,24 @@ body{
 }
 /*Barra de navegação*/
 #navegacao{
-    /* display: inline-block;  */
+    display: flex; 
     background-color: rgba(53, 74, 95,0.3);
     width: 100%;
-}
-#paginas{
-    float: right;
-    margin: 1% 2%;
+    align-items: center;
+    flex-wrap: wrap;
 }
 #paginas li{
-    padding-left: 10px;
+    padding-left: 20px;
     text-align: justify;
+    font-family: 'Goldman', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
 }
 #logo{
     height: 4em;
-}
-nav ul li{
-    font-family: 'Goldman', cursive;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #fff;
-    /* display: inline-block; */
-    text-shadow: 2px 2px 2px #000;
+    margin: 0 auto;
 }
 
 /*Mudança no tamanho do container*/
@@ -60,7 +60,7 @@ nav ul li{
     color: #fff;
     background-color: rgba(30, 43, 56, 0.9);
     width: 99%;
-    padding: 1%;
+    padding: 1% 0 0 1%;
     height: 12vh;
 }
 /*Formatação de links*/
@@ -77,13 +77,11 @@ nav ul li{
 @media(orientation: landscape){
         /*Barra de navegação*/
     #navegacao{
-        display: block;
-        background-color: rgba(53, 74, 95,0.3);
         width: 100%;
-        height: 15vh;
+        height: 21vh;
     }
     #paginas{
-        margin: 1% 2%;
+        margin:0 auto;
     }
     #paginas li{
         padding-right: 2vh 0.5vw;
@@ -93,19 +91,18 @@ nav ul li{
         height: 13vh;
     }
     nav ul li{
-        font-family: 'Goldman', cursive;
-        font-weight: bold;
-        font-size: 2.2vw;
-        color: #fff;
         display: inline-block;
-        text-shadow: 2px 2px 2px #000;
+    }
+    nav ul li a{
+        font-size: 3.5vw;
+        color: #fff;
     }
 
 }
 @media(orientation:portrait) {
     #navegacao{
         width: 100%;
-        height: 15vh;
+        height: 38vh;
     }
     #paginas{
         float: right;
@@ -116,8 +113,7 @@ nav ul li{
         text-align: justify;
     }
     #logo{
-        height: 9vh;
-        width: 30vw;
+        height: 15vh;
     }
     nav ul li{
         font-size: 3vh;

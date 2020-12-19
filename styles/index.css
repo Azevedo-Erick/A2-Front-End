@@ -22,8 +22,6 @@
     margin-left: auto;
     opacity: 1;
     color: #fff;
-    /* margin: 12vw 0 0 2%; */
-    /* font-size: 1.5rem; */
     font-family: 'Goldman', cursive;
     text-shadow: 2px 2px 2px #000;
 }
@@ -34,10 +32,15 @@
     margin-left: auto;
     opacity: 1;
     color: #fff;
-    /* margin: 12vw 80vw; */
     font-size: 1.5rem;
     font-family: 'Goldman', cursive;
     text-shadow: 2px 2px 2px #000;
+}
+#container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 #imagem-contato, #imagem-sobre, #imagem-produtos{
     width: 40vw;
@@ -50,7 +53,6 @@
 #preenchimento{
     font-family: 'Anton', sans-serif;
     color: #fff;
-    /* font-size: 1.45vw; */
     position: relative;
     z-index: 1;
 }
@@ -62,13 +64,14 @@
     right: 11vw; */
 }
 .preenchimento-contato, .preenchimento-sobre , .preenchimento-produtos{
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 3%;
 }
 /*Body - contact*/
 .contato,.sobre, .produtos{
     display: inline-block;
     /*width: 100%;*/
+    
 }
 #imagem-contato{
     float: right;
@@ -78,8 +81,6 @@
 .preenchimento-contato{
     text-align: justify;
     overflow: hidden;
-    /*top: 6vw;
-    left: 3vw;*/
 }
 /*Body - Sobre*/
 
@@ -91,8 +92,6 @@
     text-align: justify;
     overflow: hidden;
     float: right;
-    /*top: 6vw;
-    right: 8vw;*/
 }
 
 /*Formatação de links*/
@@ -151,9 +150,6 @@
 }
 
 @media(orientation:portrait) {
-    #container{
-        width: 100%;
-    }
     /*Body - Apresentação*/
     .apresentacao{
         height: 23vh;
@@ -161,7 +157,7 @@
 
     #nome{
         margin: 12vw 0 0 2%;
-        font-size: 1.5rem;
+        font-size: 7.1vw;
     }
     #frase{
         margin: 6vh 0 0 65%;;

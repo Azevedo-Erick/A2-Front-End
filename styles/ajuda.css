@@ -100,12 +100,6 @@
     #botao{
         padding: 4px;
     }
-    #redes-sociais ul li{
-        display: inline;
-    }
-    #redes-sociais ul li img{
-        width: 2%;
-    }
     #entrada p{
         margin: 1% 0% 2% 1%;
     }
@@ -151,13 +145,6 @@
     }
     #botao{
         padding: 5px;
-    }
-    #redes-sociais ul li{
-        display: inline;
-    }
-    
-    #redes-sociais ul li img{
-        width: 7vh;
     }
     #entrada p{
         margin: 1% 0% 2% 1%;
