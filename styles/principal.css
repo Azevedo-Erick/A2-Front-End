@@ -112,23 +112,23 @@ body{
 @media(orientation:portrait) {
     #navegacao{
         width: 100%;
-
         display: flex;
         align-items: center;
     }
     #paginas{
         float: right;
-        margin: 1% 2%;
+        margin: 1% 2% 2% 25%;
     }
     #paginas li{
         padding-left: 10px;
         text-align: justify;
     }
     #logo{
-        height: 15vh;
+        height: 11vh;
+        margin: 2% 0 2% 34%;
     }
-    nav ul li{
-        font-size: 3vh;
+    nav ul li a{
+        font-size: 4vh;
         color: #fff;
     }
 }
