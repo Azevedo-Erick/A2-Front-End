@@ -28,4 +28,4 @@ function add(){
     elementoPai.insertBefore(criarDiv, referencia.nextElementSibling);
 }
 let botao = document.getElementById("botao");
-botao.addEventListener("click", add());
+botao.addEventListener("click", add);
